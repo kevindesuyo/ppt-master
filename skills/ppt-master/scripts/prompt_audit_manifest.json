@@ -1453,15 +1453,6 @@
       },
       {
         "kind": "exact",
-        "fingerprint": "602f1c4f5ee3",
-        "paths": [
-          "skills/ppt-master/templates/styles/consulting-decision/templates/design_spec.md",
-          "skills/ppt-master/templates/styles/mbb-consulting/templates/design_spec.md"
-        ],
-        "reason": "mbb-consulting inherits the consulting-decision method and image direction by design; only its visual system differs."
-      },
-      {
-        "kind": "exact",
         "fingerprint": "9e4ef33145e2",
         "paths": [
           "skills/ppt-master/templates/styles/consulting-decision/templates/design_spec.md",
