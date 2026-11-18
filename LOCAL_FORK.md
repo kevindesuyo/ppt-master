@@ -1,6 +1,6 @@
 # ローカル fork の運用
 
-このチェックアウトは、上流 `hugohe3/ppt-master` に少数のローカル変更を載せた疑似 fork です。ppt-master スキルの実体はここだけに置き、各エージェントからは symlink で参照します。
+このチェックアウトは、上流 `hugohe3/ppt-master` にローカル変更を重ねるための管理元です。更新後は skills リポジトリに複製を同期し、各エージェントはその複製を参照します。
 
 ## ブランチ
 
@@ -19,7 +19,7 @@
 
 ## 参照元
 
-- `~/.agents/skills/ppt-master` → `../../Documents/workfolder/ppt-master/skills/ppt-master`（Codex など）
+- `~/.agents/skills/ppt-master` → `../../Documents/workfolder/skills/.agents/skills/ppt-master`（Codex など）
 - `~/.claude/skills/ppt-master` → `../../.agents/skills/ppt-master`（Claude Code）
 - `workfolder/skills/.agents/skills/ppt-master`：skills リポジトリ単体で取得できるようにするための複製。更新後に下記の手順で同期する
 
